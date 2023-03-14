@@ -1,0 +1,1389 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16182 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/andyg/Documents/GitHub/HARP_Holoelens2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56721
+Successfully changed project path to: C:/Users/andyg/Documents/GitHub/HARP_Holoelens2
+C:/Users/andyg/Documents/GitHub/HARP_Holoelens2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 189.66 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 5.75 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/andyg/Documents/GitHub/HARP_Holoelens2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c96)
+    Vendor:   
+    VRAM:     1979 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003078 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.42 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.040993 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.16 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+DisplayProgressbar: Restoring NuGet Packages
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Added DLL directory C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Assets\Packages\Microsoft.Windows.MixedReality.DotNetWinRT.0.5.1049\Unity\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.Windows.MixedReality.DotNetWinRT.Init:.cctor () (at Assets/Packages/Microsoft.Windows.MixedReality.DotNetWinRT.0.5.1049/Unity/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Packages/Microsoft.Windows.MixedReality.DotNetWinRT.0.5.1049/Unity/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs Line: 56)
+
+Added DLL directory C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Assets\Packages\Microsoft.VCRTForwarders.140.1.0.7\Unity\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+InitVCRTForwarders:.cctor () (at Assets/Packages/Microsoft.VCRTForwarders.140.1.0.7/Unity/Editor/InitVCRTForwarders.cs:53)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Packages/Microsoft.VCRTForwarders.140.1.0.7/Unity/Editor/InitVCRTForwarders.cs Line: 53)
+
+Added DLL directory C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Assets\Packages\Microsoft.MixedReality.QR.0.5.3019\Unity\x64 to the user search path.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.QR.Init:.cctor () (at Assets/Packages/Microsoft.MixedReality.QR.0.5.3019/Unity/Editor/Microsoft.MixedReality.QR.Init.cs:60)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Packages/Microsoft.MixedReality.QR.0.5.3019/Unity/Editor/Microsoft.MixedReality.QR.Init.cs Line: 60)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6279ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (6038ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (5157ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (279ms)
+				ProcessInitializeOnLoadAttributes (4742ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 184.9 MB.
+
+Unloading 157 unused Assets to reduce memory usage. Loaded Objects now: 4456.
+Total: 6.259500 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.194100 ms MarkObjects: 5.480300 ms  DeleteObjects: 0.183400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Indoor Navigation/SpawnAnchor.cs
+  artifactKey: Guid(2f69a540f581d684a8d25de09c0d60cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Indoor Navigation/SpawnAnchor.cs using Guid(2f69a540f581d684a8d25de09c0d60cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8e1cd596002464e1a4eeee99c53350') in 0.045351 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046889 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 5.61 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.53 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4272ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (3892ms)
+			LoadAssemblies (319ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (791ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (2396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (513ms)
+				ProcessInitializeOnLoadAttributes (1826ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.44 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.35 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.3 MB.
+System memory in use after: 178.4 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4461.
+Total: 9.160900 ms (FindLiveObjects: 0.879600 ms CreateObjectMapping: 0.607300 ms MarkObjects: 7.351900 ms  DeleteObjects: 0.319000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5200.672166 seconds.
+  path: Assets/Indoor Navigation/SampleScene.unity
+  artifactKey: Guid(a9747b0003de2984f9c17c184d4348ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Indoor Navigation/SampleScene.unity using Guid(a9747b0003de2984f9c17c184d4348ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458abed89d9e9160f997157640c7c3c9') in 0.094994 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.139637 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.86 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2630ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2410ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (283ms)
+				ProcessInitializeOnLoadAttributes (1150ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.5 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4466.
+Total: 5.468400 ms (FindLiveObjects: 0.662000 ms CreateObjectMapping: 0.597800 ms MarkObjects: 4.056000 ms  DeleteObjects: 0.150600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.307421 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 11.83 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.94 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15363ms)
+		BeginReloadAssembly (843ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (60ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (357ms)
+		EndReloadAssembly (13957ms)
+			LoadAssemblies (868ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2987ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (370ms)
+			SetupLoadedEditorAssemblies (8543ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (13ms)
+				BeforeProcessingInitializeOnLoad (2112ms)
+				ProcessInitializeOnLoadAttributes (6262ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.37 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.82 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4471.
+Total: 31.912200 ms (FindLiveObjects: 2.498600 ms CreateObjectMapping: 0.995700 ms MarkObjects: 27.683600 ms  DeleteObjects: 0.728800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077335 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 5.60 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10847ms)
+		BeginReloadAssembly (428ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (10141ms)
+			LoadAssemblies (739ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3692ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (176ms)
+			SetupLoadedEditorAssemblies (3815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (865ms)
+				ProcessInitializeOnLoadAttributes (2872ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 9.13 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.78 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4476.
+Total: 13.864900 ms (FindLiveObjects: 1.393000 ms CreateObjectMapping: 1.026800 ms MarkObjects: 11.037500 ms  DeleteObjects: 0.404000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 154.47 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4476.
+Total: 9.989000 ms (FindLiveObjects: 1.054700 ms CreateObjectMapping: 0.688100 ms MarkObjects: 7.953500 ms  DeleteObjects: 0.289900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2141.429461 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Experimental - MixedRealityKeyboard
+  artifactKey: Guid(7c77c3e7a1d48f54b96a7bf090ffc225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Experimental - MixedRealityKeyboard using Guid(7c77c3e7a1d48f54b96a7bf090ffc225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bebf7577fa2df090c2d8b00edc13aa') in 1.290317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.089330 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Demos - Input/Scenes
+  artifactKey: Guid(a5c1db19ceed7e644aefcf2b7060933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Demos - Input/Scenes using Guid(a5c1db19ceed7e644aefcf2b7060933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636527e6ec50e5dc13d45ed32493fc9c') in 0.036631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.508967 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Demos - Input/Scenes/InputData
+  artifactKey: Guid(3c466a560a87a704983ffc4dac9aad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Demos - Input/Scenes/InputData using Guid(3c466a560a87a704983ffc4dac9aad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6839d1f6b97e26579f5bdcd057a9292') in 0.032139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.849796 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Experimental - MixedRealityKeyboard/Scenes
+  artifactKey: Guid(30e1d1024ec342e4d8675df40456d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Experimental - MixedRealityKeyboard/Scenes using Guid(30e1d1024ec342e4d8675df40456d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2eba47e29855f7431335cc3c252132') in 0.011307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.695671 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Experimental - MixedRealityKeyboard/Scenes/MixedRealityKeyboardExample.unity
+  artifactKey: Guid(b21a91f417fdc7b41b531772ff092fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.0/Experimental - MixedRealityKeyboard/Scenes/MixedRealityKeyboardExample.unity using Guid(b21a91f417fdc7b41b531772ff092fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d88019012bddadd9de5ead6303121e') in 0.055591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.134725 seconds.
+  path: Assets/Indoor Navigation/SampleScene.unity
+  artifactKey: Guid(a9747b0003de2984f9c17c184d4348ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Indoor Navigation/SampleScene.unity using Guid(a9747b0003de2984f9c17c184d4348ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba26bc442704cc1e838242ea29d0ff10') in 0.048034 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 230.63 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.58 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4476.
+Total: 222.148100 ms (FindLiveObjects: 0.748500 ms CreateObjectMapping: 0.560000 ms MarkObjects: 220.505800 ms  DeleteObjects: 0.330300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 5.321276 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.86 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.35 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5787ms)
+		BeginReloadAssembly (1029ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (84ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (494ms)
+		EndReloadAssembly (4442ms)
+			LoadAssemblies (667ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (972ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (2384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (494ms)
+				ProcessInitializeOnLoadAttributes (1825ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.78 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4481.
+Total: 10.776100 ms (FindLiveObjects: 0.586000 ms CreateObjectMapping: 0.413200 ms MarkObjects: 9.476600 ms  DeleteObjects: 0.297900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.075019 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 6.25 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 1.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.135 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7136ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (6770ms)
+			LoadAssemblies (282ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1262ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (241ms)
+			SetupLoadedEditorAssemblies (4248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (993ms)
+				ProcessInitializeOnLoadAttributes (3166ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.40 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.81 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4486.
+Total: 37.229100 ms (FindLiveObjects: 4.688800 ms CreateObjectMapping: 2.087100 ms MarkObjects: 29.983800 ms  DeleteObjects: 0.465000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077379 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 6.12 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.47 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9960ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (9492ms)
+			LoadAssemblies (377ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3127ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (266ms)
+			SetupLoadedEditorAssemblies (4457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (1070ms)
+				ProcessInitializeOnLoadAttributes (3306ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 16.21 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.86 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4491.
+Total: 32.621400 ms (FindLiveObjects: 1.518100 ms CreateObjectMapping: 1.654800 ms MarkObjects: 29.012300 ms  DeleteObjects: 0.431900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 175.88 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.47 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.5 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4491.
+Total: 8.488000 ms (FindLiveObjects: 0.656700 ms CreateObjectMapping: 0.582100 ms MarkObjects: 6.989000 ms  DeleteObjects: 0.257100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.881114 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 7.44 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.80 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8153ms)
+		BeginReloadAssembly (1152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (115ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (437ms)
+		EndReloadAssembly (6630ms)
+			LoadAssemblies (826ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1638ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (192ms)
+			SetupLoadedEditorAssemblies (3364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (921ms)
+				ProcessInitializeOnLoadAttributes (2355ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.89 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4496.
+Total: 13.403000 ms (FindLiveObjects: 2.252300 ms CreateObjectMapping: 0.943400 ms MarkObjects: 9.605600 ms  DeleteObjects: 0.597900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 410.27 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.5 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4496.
+Total: 11.905500 ms (FindLiveObjects: 0.645700 ms CreateObjectMapping: 0.791200 ms MarkObjects: 10.214600 ms  DeleteObjects: 0.251200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 5.721761 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 7.87 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.89 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10049ms)
+		BeginReloadAssembly (1594ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (81ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (717ms)
+		EndReloadAssembly (7715ms)
+			LoadAssemblies (1246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1965ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (233ms)
+			SetupLoadedEditorAssemblies (3496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (979ms)
+				ProcessInitializeOnLoadAttributes (2438ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.60 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4501.
+Total: 13.736900 ms (FindLiveObjects: 1.947600 ms CreateObjectMapping: 2.566000 ms MarkObjects: 8.909800 ms  DeleteObjects: 0.310600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.173267 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 6.55 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.51 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12339ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (11790ms)
+			LoadAssemblies (510ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2859ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (681ms)
+			SetupLoadedEditorAssemblies (6138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (849ms)
+				ProcessInitializeOnLoadAttributes (5134ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 8.51 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.75 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4506.
+Total: 17.714300 ms (FindLiveObjects: 1.632400 ms CreateObjectMapping: 1.022300 ms MarkObjects: 14.598000 ms  DeleteObjects: 0.457500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.116562 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 9.70 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.66 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10965ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (10334ms)
+			LoadAssemblies (654ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2120ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (358ms)
+			SetupLoadedEditorAssemblies (5527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (1096ms)
+				ProcessInitializeOnLoadAttributes (4278ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 12.36 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.97 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4511.
+Total: 25.232800 ms (FindLiveObjects: 1.107100 ms CreateObjectMapping: 1.830900 ms MarkObjects: 21.229500 ms  DeleteObjects: 1.060300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.177091 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 15.03 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.63 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9784ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (9233ms)
+			LoadAssemblies (491ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1871ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (240ms)
+			SetupLoadedEditorAssemblies (5602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (16ms)
+				BeforeProcessingInitializeOnLoad (1405ms)
+				ProcessInitializeOnLoadAttributes (4084ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 9.27 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.62 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4516.
+Total: 16.969100 ms (FindLiveObjects: 1.640400 ms CreateObjectMapping: 1.136900 ms MarkObjects: 13.840400 ms  DeleteObjects: 0.347400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 196.72 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.55 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.4 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4516.
+Total: 12.390100 ms (FindLiveObjects: 0.702200 ms CreateObjectMapping: 0.567400 ms MarkObjects: 10.787200 ms  DeleteObjects: 0.330600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 346.39 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.74 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.4 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4516.
+Total: 196.285900 ms (FindLiveObjects: 1.319300 ms CreateObjectMapping: 3.699700 ms MarkObjects: 190.812900 ms  DeleteObjects: 0.447600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 2.385628 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 11.33 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.57 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12341ms)
+		BeginReloadAssembly (1483ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (149ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (562ms)
+		EndReloadAssembly (10445ms)
+			LoadAssemblies (1007ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2267ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (251ms)
+			SetupLoadedEditorAssemblies (5750ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (12ms)
+				BeforeProcessingInitializeOnLoad (1170ms)
+				ProcessInitializeOnLoadAttributes (4429ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.52 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.41 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.6 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4521.
+Total: 9.971100 ms (FindLiveObjects: 0.688300 ms CreateObjectMapping: 0.565800 ms MarkObjects: 8.441900 ms  DeleteObjects: 0.272400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.107476 seconds.
+Begin MonoManager ReloadAssembly
+Multiple scripted importers are targeting the extension 'glb' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLBImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'gltf' and have all been rejected: Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll), Siccity.GLTFUtility.GLTFImporter (assembly: C:\Users\andyg\Documents\GitHub\HARP_Holoelens2\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll) 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 13.10 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.81 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6848ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (6351ms)
+			LoadAssemblies (404ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (1117ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (3828ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (14ms)
+				BeforeProcessingInitializeOnLoad (732ms)
+				ProcessInitializeOnLoadAttributes (2993ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.35 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.6 MB.
+System memory in use after: 178.8 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4526.
+Total: 17.179600 ms (FindLiveObjects: 1.219400 ms CreateObjectMapping: 0.760800 ms MarkObjects: 14.843900 ms  DeleteObjects: 0.352100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 247.49 ms, found 35 plugins.
+Preloading 2 native plugins for Editor in 0.55 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.4 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4526.
+Total: 18.163700 ms (FindLiveObjects: 1.655300 ms CreateObjectMapping: 0.886600 ms MarkObjects: 15.151300 ms  DeleteObjects: 0.466700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
